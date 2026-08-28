@@ -34,12 +34,11 @@
     </scm>
 
     <properties>
-        <maven.compiler.source>18</maven.compiler.source>
-        <maven.compiler.target>18</maven.compiler.target>
-        <lombok.version>1.18.24</lombok.version>
-        <apache.common.validator>1.7</apache.common.validator>
-        <junit5.version>5.9.0</junit5.version>
-        <jackson.dataformat.yaml.version>2.13.4</jackson.dataformat.yaml.version>
+        <maven.compiler.release>8</maven.compiler.release>
+        <lombok.version>1.18.38</lombok.version>
+        <apache.common.validator>1.10.1</apache.common.validator>
+        <junit5.version>5.12.2</junit5.version>
+        <jackson.dataformat.yaml.version>2.18.4</jackson.dataformat.yaml.version>
     </properties>
 
     <dependencies>
@@ -90,7 +89,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.0</version>
+                <version>3.5.6</version>
             </plugin>
         </plugins>
     </build>
